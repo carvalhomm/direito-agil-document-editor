@@ -1,0 +1,35 @@
+{
+  "name": "direito-agil-document-editor",
+  "version": "1.0.0",
+  "description": "Direito Ágil documents editor. Extends from CKEditor5 capabilities to add custom plugins and capabilities to create the company standard package to editdocuments.",
+  "main": "dist/src/DireitoAgilDocumentEditor.js",
+  "scripts": {
+    "start": "node ./dist/src/index.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carvalhomm/direito-agil-document-editor.git"
+  },
+  "keywords": [
+    "pdf",
+    "document",
+    "editor",
+    "direito-agil"
+  ],
+  "author": "Direito Ágil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carvalhomm/direito-agil-document-editor/issues"
+  },
+  "homepage": "https://github.com/carvalhomm/direito-agil-document-editor#readme",
+  "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^27.1.0",
+    "@ckeditor/ckeditor5-build-classic": "^27.1.0",
+    "@ckeditor/ckeditor5-font": "^27.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  }
+}
